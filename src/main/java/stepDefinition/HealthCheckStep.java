@@ -15,23 +15,23 @@ public class HealthCheckStep {
 		homepage = new HomePage(driver);
 	}
 
-	@When("^Customer opens the Thuisbezorgd application url$")
-	public void customer_opens_the_Thuisbezorgd_application_url() {
+	@When("^User navigates to homepage$")
+	public void user_navigates_to_homepage() {
 		homepage.navigateToHomePage();
 	}
 
-	@Then("^application home page should be displayed successfully$")
-	public void application_home_page_should_be_displayed_successfully() {
+	@Then("^Home page should be loaded successfully$")
+	public void home_page_should_be_loaded_successfully() {
 		homepage.isHomePageDisplayedSuccessfully();
 	}
 
-	@When("^Customer tries to check each and every thuizbezorgd urls to check their status$")
-	public void customer_tries_to_check_each_and_every_thuizbezorgd_urls_to_check_their_status() {
+	@When("^User checks for the status of all links in the application$")
+	public void user_checks_for_the_status_of_all_links_in_the_application() {
 		homepage.navigateToHomePage();
 	}
 
-	@Then("^Customer should get the information related to active and broken url status$")
-	public void customer_should_get_the_information_related_to_active_and_broken_url_status() {
+	@Then("^User should get the information related to active and broken url$")
+	public void user_should_get_the_information_related_to_active_and_broken_url() {
 		homepage.performHealthCheck();
 	}
 

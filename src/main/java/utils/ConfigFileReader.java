@@ -10,10 +10,10 @@ import java.util.Properties;
  * The Class is used to read the values from Configuration.properties
  */
 public class ConfigFileReader {
-	
+
 	/** The properties. */
 	private Properties properties;
-	
+
 	/** The property file path. */
 	private final String propertyFilePath = "config//Configuration.properties";
 
@@ -38,7 +38,8 @@ public class ConfigFileReader {
 	}
 
 	/**
-	 * Gets the Thuisbezorgd.nl application URL.
+	 * Gets the WeTransfer application URL(https://wetransfer.com/).
+	 * 
 	 * @return the application URL
 	 */
 	public String getApplicationURL() {
@@ -51,7 +52,9 @@ public class ConfigFileReader {
 	}
 
 	/**
-	 * Gets the implicit wait time value from properties file and this value is used across the application.
+	 * Gets the implicit wait time value from properties file and this value is used
+	 * across the application.
+	 * 
 	 * @return the implicit wait time
 	 */
 	public int getImplicitWaitTime() {
@@ -65,6 +68,7 @@ public class ConfigFileReader {
 
 	/**
 	 * Gets the browser which is used for program execution.
+	 * 
 	 * @return the explicit wait time
 	 */
 	public String getBrowserName() {
@@ -75,9 +79,11 @@ public class ConfigFileReader {
 			throw new RuntimeException("Browser name is not specified in the configuration file.");
 		}
 	}
-	
+
 	/**
-	 * Gets the explicit wait time value from properties file and this value is used across the application.
+	 * Gets the explicit wait time value from properties file and this value is used
+	 * across the application.
+	 * 
 	 * @return the explicit wait time
 	 */
 	public int getExplicitWaitTime() {
@@ -88,9 +94,11 @@ public class ConfigFileReader {
 			throw new RuntimeException("Explicit wait time not specified in the configuration file.");
 		}
 	}
-	
+
 	/**
-	 * Gets the pageload timeout value from properties file and this value is used across the application.
+	 * Gets the pageload timeout value from properties file and this value is used
+	 * across the application.
+	 * 
 	 * @return the explicit wait time
 	 */
 	public int getPageLoadTimeOut() {
@@ -101,10 +109,14 @@ public class ConfigFileReader {
 			throw new RuntimeException("page load time not specified in the configuration file.");
 		}
 	}
-	
-	public String getReportConfigPath(){
-	 String reportConfigPath = properties.getProperty("reportConfigPath");
-	 if(reportConfigPath!= null) return reportConfigPath;
-	 else throw new RuntimeException("Report Config Path not specified in the Configuration.properties file for the Key:reportConfigPath"); 
+
+	public String getUploadFileName() {
+		String uploadFileName = properties.getProperty("uploadFileName");
+		if (uploadFileName != null) {
+			return uploadFileName;
+		} else {
+			throw new RuntimeException("page load time not specified in the configuration file.");
+		}
 	}
+
 }

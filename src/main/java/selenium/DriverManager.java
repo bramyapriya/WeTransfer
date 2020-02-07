@@ -12,16 +12,32 @@ import org.openqa.selenium.opera.OperaDriver;
 
 import utils.ConfigFileReader;
 
+/**
+ * The Class DriverManager.
+ */
 public class DriverManager {
+
+	/** The driver path. */
 	private String driverPath;
+
+	/** The driver. */
 	private WebDriver driver;
+
+	/** The driver handler. */
 	private static DriverManager _driverHandler;
+
+	/** The Constant Log. */
 	private static final Logger Log = Logger.getLogger(DriverManager.class);
+
+	/** The conf. */
 	static ConfigFileReader conf = new ConfigFileReader();
 
-	/*
-	 * This gets the webdriver based on the value configured in the properties file
+	/**
+	 * Instantiates a new driver manager. This gets the webdriver based on the value
+	 * configured in properties file.
+	 * @param browserName the browser name
 	 */
+
 	private DriverManager(String browserName) { // Here the constructor is made private purposely to ensure that this
 												// class can't be instantiated.
 		Log.debug("Selected Browser Is:" + browserName);
@@ -53,27 +69,23 @@ public class DriverManager {
 		this.driver.manage().deleteAllCookies();
 	}
 
-	/*
-	 * singleton pattern is used here, if the instance is null then it will
-	 * constructor, else it will return the instance. Available browser options are
-	 * Chrome, Opera, IE, Firefox
+	/**
+	 * This will loads the webdriver based on the input option provided. Possible
+	 * browser options are Chrome, Opera, IE, Firefox
+	 * 
+	 * @return the driver manager instance
 	 */
 	public static DriverManager getDriverManagerInstance() {
-		// if (null == _driverHandler)
 		_driverHandler = new DriverManager(conf.getBrowserName());
 		return _driverHandler;
 	}
 
-	// Get the new Webdriver
+	/**
+	 * Gets the new Webdriver.
+	 * 
+	 * @return the driver
+	 */
 	public WebDriver getDriver() {
 		return driver;
 	}
-
-	// Close the web driver
-	public void TearDown() {
-		Log.info("Closing the browser");
-		driver.close();
-		driver.quit();
-	}
-
 }

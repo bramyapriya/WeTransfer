@@ -19,7 +19,7 @@ public class Waiter {
 	 * @param element
 	 * @param driver
 	 */
-	public static void clickViaJS(WebElement element, WebDriver driver) {
+	public static void clickViaJS(WebDriver driver, WebElement element) {
 		Log.info("Performing java script click on the element:" + element);
 		JavascriptExecutor executor = (JavascriptExecutor) driver;
 		executor.executeScript("arguments[0].click();", element);
@@ -116,5 +116,24 @@ public class Waiter {
 		JavascriptExecutor executor = (JavascriptExecutor) driver;
 		executor.executeScript("arguments[0].scrollIntoView(true);", element);
 		Log.info("Focus on element is completed.");
+	}
+
+	/***
+	 * This methods checks whether the webelement is clickable or not. Incase if
+	 * it's not clickable it will wait until the explicit wait time.
+	 * 
+	 * @param driver
+	 * @param element
+	 * @return true, If the element is clickable
+	 * @return false, If the element is not clickable
+	 */
+	public static boolean isClickable(WebDriver driver, WebElement element) {
+		try {
+			WebDriverWait wait = new WebDriverWait(driver, conf.getExplicitWaitTime());
+			wait.until(ExpectedConditions.elementToBeClickable(element));
+			return true;
+		} catch (Exception e) {
+			return false;
+		}
 	}
 }
