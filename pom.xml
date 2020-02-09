@@ -106,5 +106,12 @@
 			<version>3.0.0</version>
 		</dependency>
 
+		<!-- Used to download the driver manager dynamically -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+
 	</dependencies>
 </project>

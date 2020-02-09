@@ -10,6 +10,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
 
+import io.github.bonigarcia.wdm.ChromeDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import utils.ConfigFileReader;
 
 /**
@@ -35,6 +37,7 @@ public class DriverManager {
 	/**
 	 * Instantiates a new driver manager. This gets the webdriver based on the value
 	 * configured in properties file.
+	 * 
 	 * @param browserName the browser name
 	 */
 

@@ -1,7 +1,7 @@
 Feature: HealthCheck 
 	This feature helps to perform  health check of the application and also inspects the application url status
 
-@ramya
+@regression 
 Scenario: Check whether application homepage is loaded properly or not 
 	When User navigates to homepage 
 	Then Home page should be loaded successfully 

@@ -116,3 +116,580 @@
 2020-02-06 22:06:08 DEBUG DriverManager:43 - Selected Browser Is:Edge
 2020-02-06 22:10:28 DEBUG Hooks:43 - Started running the scenario:Check whether application homepage is loaded properly or not
 2020-02-06 22:10:28 DEBUG DriverManager:43 - Selected Browser Is:Opera
+2020-02-09 19:43:08 DEBUG Hooks:43 - Started running the scenario:Check whether application homepage is loaded properly or not
+2020-02-09 19:43:08 DEBUG DriverManager:44 - Selected Browser Is:Chrome
+2020-02-09 19:43:18 DEBUG HomePage:53 - Application base url is:https://wetransfer.com/
+2020-02-09 19:43:20 INFO  HomePage:63 - Home page is displayed successfully.
+2020-02-09 19:43:20 DEBUG Hooks:72 - Scenario:Check whether application homepage is loaded properly or not completed successfully 
+
+2020-02-09 19:43:21 DEBUG Hooks:43 - Started running the scenario:Check for the broken links in the application
+2020-02-09 19:43:21 DEBUG DriverManager:44 - Selected Browser Is:Chrome
+2020-02-09 19:43:30 DEBUG HomePage:53 - Application base url is:https://wetransfer.com/
+2020-02-09 19:43:32 DEBUG HomePage:80 - Total number of urls are:10
+2020-02-09 19:43:34 DEBUG HomePage:28 - Active link url is: https://wetransfer.zendesk.com/ - OK
+2020-02-09 19:43:35 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/legal/terms - OK
+2020-02-09 19:43:35 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/legal/privacy - OK
+2020-02-09 19:43:35 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/help - OK
+2020-02-09 19:43:36 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/about - OK
+2020-02-09 19:43:36 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/about - OK
+2020-02-09 19:43:36 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/products - OK
+2020-02-09 19:43:37 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/advertise - OK
+2020-02-09 19:43:37 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/pro?trk=WT201908_Upgrade - OK
+2020-02-09 19:43:38 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/log-in - OK
+2020-02-09 19:43:38 DEBUG Hooks:72 - Scenario:Check for the broken links in the application completed successfully 
+
+2020-02-09 19:44:57 DEBUG Hooks:43 - Started running the scenario:Check whether application homepage is loaded properly or not
+2020-02-09 19:44:57 DEBUG DriverManager:44 - Selected Browser Is:Opera
+2020-02-09 19:44:57 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2020-02-09 19:44:57 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 19:44:57 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://api.github.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-02-09 19:44:57 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://api.github.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-02-09 19:44:57 DEBUG MainClientExec:234 - Opening connection {s}->https://api.github.com:443
+2020-02-09 19:44:57 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to api.github.com/140.82.118.5:443
+2020-02-09 19:44:57 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to api.github.com/140.82.118.5:443 with timeout 0
+2020-02-09 19:44:57 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-02-09 19:44:57 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+2020-02-09 19:44:57 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2020-02-09 19:44:57 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2020-02-09 19:44:57 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2020-02-09 19:44:57 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2020-02-09 19:44:57 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=*.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+2020-02-09 19:44:58 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [*.github.com, github.com]
+2020-02-09 19:44:58 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+2020-02-09 19:44:58 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 192.168.1.72:50296<->140.82.118.5:443
+2020-02-09 19:44:58 DEBUG MainClientExec:255 - Executing request OPTIONS /repos/operasoftware/operachromiumdriver/releases HTTP/1.1
+2020-02-09 19:44:58 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2020-02-09 19:44:58 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2020-02-09 19:44:58 DEBUG headers:135 - http-outgoing-0 >> OPTIONS /repos/operasoftware/operachromiumdriver/releases HTTP/1.1
+2020-02-09 19:44:58 DEBUG headers:138 - http-outgoing-0 >> Host: api.github.com
+2020-02-09 19:44:58 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2020-02-09 19:44:58 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_201)
+2020-02-09 19:44:58 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 >> "OPTIONS /repos/operasoftware/operachromiumdriver/releases HTTP/1.1[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 >> "Host: api.github.com[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_201)[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 204 No Content[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "Date: Sun, 09 Feb 2020 18:44:58 GMT[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "Server: GitHub.com[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "Status: 204 No Content[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Max-Age: 86400[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Accept-Encoding, X-GitHub-OTP, X-Requested-With, User-Agent[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "Expect-CT: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:86 - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaw"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "s.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com collector.githubapp.com avatars0.githubusercontent.com avatars1.githubusercontent.com avatars2.githubusercontent.com avatars3.githubusercontent.com github-cloud.s3.amazonaws.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "Vary: Accept-Encoding, Accept[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "X-GitHub-Request-Id: D5AB:18A70:5476EFF:6598161:5E40532A[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2020-02-09 19:44:58 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 204 No Content
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-0 << Date: Sun, 09 Feb 2020 18:44:58 GMT
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-0 << Server: GitHub.com
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-0 << Status: 204 No Content
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-0 << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-0 << Access-Control-Max-Age: 86400
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Accept-Encoding, X-GitHub-OTP, X-Requested-With, User-Agent
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-0 << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-0 << X-Frame-Options: deny
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-0 << X-Content-Type-Options: nosniff
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-0 << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-0 << Expect-CT: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-0 << Content-Security-Policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com collector.githubapp.com avatars0.githubusercontent.com avatars1.githubusercontent.com avatars2.githubusercontent.com avatars3.githubusercontent.com github-cloud.s3.amazonaws.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-0 << Vary: Accept-Encoding, Accept
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-0 << Vary: Accept-Encoding
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-0 << X-GitHub-Request-Id: D5AB:18A70:5476EFF:6598161:5E40532A
+2020-02-09 19:44:58 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2020-02-09 19:44:58 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://api.github.com:443] can be kept alive indefinitely
+2020-02-09 19:44:58 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://api.github.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-02-09 19:44:58 DEBUG Hooks:43 - Started running the scenario:Check for the broken links in the application
+2020-02-09 19:44:58 DEBUG DriverManager:44 - Selected Browser Is:Opera
+2020-02-09 19:44:58 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2020-02-09 19:44:58 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 19:44:58 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://api.github.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-02-09 19:44:58 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {s}->https://api.github.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-02-09 19:44:58 DEBUG MainClientExec:234 - Opening connection {s}->https://api.github.com:443
+2020-02-09 19:44:58 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to api.github.com/140.82.118.5:443
+2020-02-09 19:44:58 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to api.github.com/140.82.118.5:443 with timeout 0
+2020-02-09 19:44:58 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-02-09 19:44:58 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+2020-02-09 19:44:58 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2020-02-09 19:44:58 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2020-02-09 19:44:58 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2020-02-09 19:44:58 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2020-02-09 19:44:58 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=*.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+2020-02-09 19:44:58 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [*.github.com, github.com]
+2020-02-09 19:44:58 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+2020-02-09 19:44:58 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 192.168.1.72:50297<->140.82.118.5:443
+2020-02-09 19:44:58 DEBUG MainClientExec:255 - Executing request OPTIONS /repos/operasoftware/operachromiumdriver/releases HTTP/1.1
+2020-02-09 19:44:58 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2020-02-09 19:44:58 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2020-02-09 19:44:58 DEBUG headers:135 - http-outgoing-1 >> OPTIONS /repos/operasoftware/operachromiumdriver/releases HTTP/1.1
+2020-02-09 19:44:58 DEBUG headers:138 - http-outgoing-1 >> Host: api.github.com
+2020-02-09 19:44:58 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2020-02-09 19:44:58 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_201)
+2020-02-09 19:44:58 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 >> "OPTIONS /repos/operasoftware/operachromiumdriver/releases HTTP/1.1[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 >> "Host: api.github.com[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_201)[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 204 No Content[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "Date: Sun, 09 Feb 2020 18:44:58 GMT[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "Server: GitHub.com[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "Status: 204 No Content[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "Access-Control-Max-Age: 86400[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "Access-Control-Allow-Headers: Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Accept-Encoding, X-GitHub-OTP, X-Requested-With, User-Agent[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "X-Frame-Options: deny[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "Expect-CT: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:86 - http-outgoing-1 << "Content-Security-Policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaw"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "s.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com collector.githubapp.com avatars0.githubusercontent.com avatars1.githubusercontent.com avatars2.githubusercontent.com avatars3.githubusercontent.com github-cloud.s3.amazonaws.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "Vary: Accept-Encoding, Accept[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "Vary: Accept-Encoding[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "X-GitHub-Request-Id: D258:2C0B6:575BA0B:68D724C:5E40532A[\r][\n]"
+2020-02-09 19:44:58 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2020-02-09 19:44:58 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 204 No Content
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-1 << Date: Sun, 09 Feb 2020 18:44:58 GMT
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-1 << Server: GitHub.com
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-1 << Status: 204 No Content
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-1 << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-1 << Access-Control-Max-Age: 86400
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-1 << Access-Control-Allow-Headers: Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Accept-Encoding, X-GitHub-OTP, X-Requested-With, User-Agent
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-1 << Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-1 << Access-Control-Allow-Origin: *
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-1 << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-1 << X-Frame-Options: deny
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-1 << X-Content-Type-Options: nosniff
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-1 << X-XSS-Protection: 1; mode=block
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-1 << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-1 << Expect-CT: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-1 << Content-Security-Policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com collector.githubapp.com avatars0.githubusercontent.com avatars1.githubusercontent.com avatars2.githubusercontent.com avatars3.githubusercontent.com github-cloud.s3.amazonaws.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-1 << Vary: Accept-Encoding, Accept
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-1 << Vary: Accept-Encoding
+2020-02-09 19:44:58 DEBUG headers:127 - http-outgoing-1 << X-GitHub-Request-Id: D258:2C0B6:575BA0B:68D724C:5E40532A
+2020-02-09 19:44:58 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2020-02-09 19:44:58 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {s}->https://api.github.com:443] can be kept alive indefinitely
+2020-02-09 19:44:58 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {s}->https://api.github.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-02-09 19:46:18 DEBUG Hooks:43 - Started running the scenario:Check whether application homepage is loaded properly or not
+2020-02-09 19:46:18 DEBUG DriverManager:44 - Selected Browser Is:Opera
+2020-02-09 19:46:18 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2020-02-09 19:46:18 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 19:46:18 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://api.github.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-02-09 19:46:18 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://api.github.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-02-09 19:46:18 DEBUG MainClientExec:234 - Opening connection {s}->https://api.github.com:443
+2020-02-09 19:46:18 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to api.github.com/140.82.118.6:443
+2020-02-09 19:46:18 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to api.github.com/140.82.118.6:443 with timeout 0
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=*.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [*.github.com, github.com]
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+2020-02-09 19:46:19 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 192.168.1.72:50302<->140.82.118.6:443
+2020-02-09 19:46:19 DEBUG MainClientExec:255 - Executing request OPTIONS /repos/operasoftware/operachromiumdriver/releases HTTP/1.1
+2020-02-09 19:46:19 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2020-02-09 19:46:19 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2020-02-09 19:46:19 DEBUG headers:135 - http-outgoing-0 >> OPTIONS /repos/operasoftware/operachromiumdriver/releases HTTP/1.1
+2020-02-09 19:46:19 DEBUG headers:138 - http-outgoing-0 >> Host: api.github.com
+2020-02-09 19:46:19 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2020-02-09 19:46:19 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_201)
+2020-02-09 19:46:19 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 >> "OPTIONS /repos/operasoftware/operachromiumdriver/releases HTTP/1.1[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 >> "Host: api.github.com[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_201)[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 204 No Content[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "Date: Sun, 09 Feb 2020 18:46:19 GMT[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "Server: GitHub.com[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "Status: 204 No Content[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Max-Age: 86400[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Accept-Encoding, X-GitHub-OTP, X-Requested-With, User-Agent[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "Expect-CT: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:86 - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaw"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "s.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com collector.githubapp.com avatars0.githubusercontent.com avatars1.githubusercontent.com avatars2.githubusercontent.com avatars3.githubusercontent.com github-cloud.s3.amazonaws.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "Vary: Accept-Encoding, Accept[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "X-GitHub-Request-Id: E003:015D:7099E45:87CDFFE:5E40537B[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2020-02-09 19:46:19 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 204 No Content
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-0 << Date: Sun, 09 Feb 2020 18:46:19 GMT
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-0 << Server: GitHub.com
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-0 << Status: 204 No Content
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-0 << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-0 << Access-Control-Max-Age: 86400
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Accept-Encoding, X-GitHub-OTP, X-Requested-With, User-Agent
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-0 << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-0 << X-Frame-Options: deny
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-0 << X-Content-Type-Options: nosniff
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-0 << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-0 << Expect-CT: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-0 << Content-Security-Policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com collector.githubapp.com avatars0.githubusercontent.com avatars1.githubusercontent.com avatars2.githubusercontent.com avatars3.githubusercontent.com github-cloud.s3.amazonaws.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-0 << Vary: Accept-Encoding, Accept
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-0 << Vary: Accept-Encoding
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-0 << X-GitHub-Request-Id: E003:015D:7099E45:87CDFFE:5E40537B
+2020-02-09 19:46:19 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2020-02-09 19:46:19 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://api.github.com:443] can be kept alive indefinitely
+2020-02-09 19:46:19 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://api.github.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-02-09 19:46:19 DEBUG Hooks:43 - Started running the scenario:Check for the broken links in the application
+2020-02-09 19:46:19 DEBUG DriverManager:44 - Selected Browser Is:Opera
+2020-02-09 19:46:19 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2020-02-09 19:46:19 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 19:46:19 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://api.github.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-02-09 19:46:19 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {s}->https://api.github.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-02-09 19:46:19 DEBUG MainClientExec:234 - Opening connection {s}->https://api.github.com:443
+2020-02-09 19:46:19 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to api.github.com/140.82.118.6:443
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to api.github.com/140.82.118.6:443 with timeout 0
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=*.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [*.github.com, github.com]
+2020-02-09 19:46:19 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+2020-02-09 19:46:19 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 192.168.1.72:50303<->140.82.118.6:443
+2020-02-09 19:46:19 DEBUG MainClientExec:255 - Executing request OPTIONS /repos/operasoftware/operachromiumdriver/releases HTTP/1.1
+2020-02-09 19:46:19 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2020-02-09 19:46:19 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2020-02-09 19:46:19 DEBUG headers:135 - http-outgoing-1 >> OPTIONS /repos/operasoftware/operachromiumdriver/releases HTTP/1.1
+2020-02-09 19:46:19 DEBUG headers:138 - http-outgoing-1 >> Host: api.github.com
+2020-02-09 19:46:19 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2020-02-09 19:46:19 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_201)
+2020-02-09 19:46:19 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 >> "OPTIONS /repos/operasoftware/operachromiumdriver/releases HTTP/1.1[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 >> "Host: api.github.com[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_201)[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 204 No Content[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "Date: Sun, 09 Feb 2020 18:46:20 GMT[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "Server: GitHub.com[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "Status: 204 No Content[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "Access-Control-Max-Age: 86400[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "Access-Control-Allow-Headers: Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Accept-Encoding, X-GitHub-OTP, X-Requested-With, User-Agent[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "X-Frame-Options: deny[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "Expect-CT: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:86 - http-outgoing-1 << "Content-Security-Policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaw"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "s.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com collector.githubapp.com avatars0.githubusercontent.com avatars1.githubusercontent.com avatars2.githubusercontent.com avatars3.githubusercontent.com github-cloud.s3.amazonaws.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "Vary: Accept-Encoding, Accept[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "Vary: Accept-Encoding[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "X-GitHub-Request-Id: E006:18A71:6F7B2E9:862D593:5E40537B[\r][\n]"
+2020-02-09 19:46:19 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2020-02-09 19:46:19 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 204 No Content
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-1 << Date: Sun, 09 Feb 2020 18:46:20 GMT
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-1 << Server: GitHub.com
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-1 << Status: 204 No Content
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-1 << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-1 << Access-Control-Max-Age: 86400
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-1 << Access-Control-Allow-Headers: Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Accept-Encoding, X-GitHub-OTP, X-Requested-With, User-Agent
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-1 << Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-1 << Access-Control-Allow-Origin: *
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-1 << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-1 << X-Frame-Options: deny
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-1 << X-Content-Type-Options: nosniff
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-1 << X-XSS-Protection: 1; mode=block
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-1 << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-1 << Expect-CT: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-1 << Content-Security-Policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com collector.githubapp.com avatars0.githubusercontent.com avatars1.githubusercontent.com avatars2.githubusercontent.com avatars3.githubusercontent.com github-cloud.s3.amazonaws.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-1 << Vary: Accept-Encoding, Accept
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-1 << Vary: Accept-Encoding
+2020-02-09 19:46:19 DEBUG headers:127 - http-outgoing-1 << X-GitHub-Request-Id: E006:18A71:6F7B2E9:862D593:5E40537B
+2020-02-09 19:46:19 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2020-02-09 19:46:19 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {s}->https://api.github.com:443] can be kept alive indefinitely
+2020-02-09 19:46:19 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {s}->https://api.github.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-02-09 19:47:46 DEBUG Hooks:43 - Started running the scenario:Check whether application homepage is loaded properly or not
+2020-02-09 19:47:46 DEBUG DriverManager:44 - Selected Browser Is:Edge
+2020-02-09 19:47:46 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2020-02-09 19:47:46 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 19:47:46 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://developer.microsoft.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-02-09 19:47:46 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://developer.microsoft.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-02-09 19:47:46 DEBUG MainClientExec:234 - Opening connection {s}->https://developer.microsoft.com:443
+2020-02-09 19:47:46 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to developer.microsoft.com/92.122.60.244:443
+2020-02-09 19:47:46 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to developer.microsoft.com/92.122.60.244:443 with timeout 0
+2020-02-09 19:47:46 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-02-09 19:47:46 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+2020-02-09 19:47:46 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2020-02-09 19:47:47 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2020-02-09 19:47:47 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2020-02-09 19:47:47 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+2020-02-09 19:47:47 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=developer.microsoft.com, OU=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, ST=WA, C=US
+2020-02-09 19:47:47 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [developers.microsoft-int.com, developer.microsoft.com, dev.microsoft.com, dev.microsoft-int.com, developers.microsoft.com, developer.microsoft-int.com, *.developer.microsoft.com]
+2020-02-09 19:47:47 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=Microsoft IT TLS CA 1, OU=Microsoft IT, O=Microsoft Corporation, L=Redmond, ST=Washington, C=US
+2020-02-09 19:47:47 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 192.168.1.72:50310<->92.122.60.244:443
+2020-02-09 19:47:47 DEBUG MainClientExec:255 - Executing request OPTIONS /en-us/microsoft-edge/tools/webdriver/ HTTP/1.1
+2020-02-09 19:47:47 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2020-02-09 19:47:47 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2020-02-09 19:47:47 DEBUG headers:135 - http-outgoing-0 >> OPTIONS /en-us/microsoft-edge/tools/webdriver/ HTTP/1.1
+2020-02-09 19:47:47 DEBUG headers:138 - http-outgoing-0 >> Host: developer.microsoft.com
+2020-02-09 19:47:47 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2020-02-09 19:47:47 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_201)
+2020-02-09 19:47:47 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 >> "OPTIONS /en-us/microsoft-edge/tools/webdriver/ HTTP/1.1[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 >> "Host: developer.microsoft.com[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_201)[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "Cache-Control: private[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 2266[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "Server: Microsoft-IIS/10.0[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "X-AspNet-Version: 4.0.30319[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "MS-CorrelationId: d732f973-9e21-48a1-9903-f9a2f9c5461e[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: ASP.NET[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "X-UA-Compatible: IE=edge[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "Date: Sun, 09 Feb 2020 18:47:47 GMT[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "<!DOCTYPE html>[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "<html>[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "    <head>[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "        <title>Access is denied.</title>[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "        <meta name="viewport" content="width=device-width" />[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "        <style>[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} [\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-0 << "         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:86 - http-outgoing-0 << "         H1 { font-family:"Verdana";font-weig"
+2020-02-09 19:47:47 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 401 Unauthorized
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-0 << Cache-Control: private
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-0 << Content-Length: 2266
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-0 << Content-Type: text/html; charset=utf-8
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-0 << Server: Microsoft-IIS/10.0
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-0 << X-Frame-Options: SAMEORIGIN
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-0 << X-AspNet-Version: 4.0.30319
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-0 << MS-CorrelationId: d732f973-9e21-48a1-9903-f9a2f9c5461e
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: ASP.NET
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-0 << X-UA-Compatible: IE=edge
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-0 << Date: Sun, 09 Feb 2020 18:47:47 GMT
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-0 << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2020-02-09 19:47:47 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2020-02-09 19:47:47 DEBUG HttpAuthenticator:77 - Authentication required
+2020-02-09 19:47:47 DEBUG HttpAuthenticator:107 - developer.microsoft.com:443 requested authentication
+2020-02-09 19:47:47 DEBUG HttpAuthenticator:111 - Response contains no authentication challenges
+2020-02-09 19:47:47 DEBUG Hooks:43 - Started running the scenario:Check for the broken links in the application
+2020-02-09 19:47:47 DEBUG DriverManager:44 - Selected Browser Is:Edge
+2020-02-09 19:47:47 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2020-02-09 19:47:47 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-02-09 19:47:47 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://developer.microsoft.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-02-09 19:47:47 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {s}->https://developer.microsoft.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-02-09 19:47:47 DEBUG MainClientExec:234 - Opening connection {s}->https://developer.microsoft.com:443
+2020-02-09 19:47:47 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to developer.microsoft.com/92.122.60.244:443
+2020-02-09 19:47:47 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to developer.microsoft.com/92.122.60.244:443 with timeout 0
+2020-02-09 19:47:47 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-02-09 19:47:47 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+2020-02-09 19:47:47 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2020-02-09 19:47:47 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2020-02-09 19:47:47 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2020-02-09 19:47:47 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+2020-02-09 19:47:47 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=developer.microsoft.com, OU=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, ST=WA, C=US
+2020-02-09 19:47:47 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [developers.microsoft-int.com, developer.microsoft.com, dev.microsoft.com, dev.microsoft-int.com, developers.microsoft.com, developer.microsoft-int.com, *.developer.microsoft.com]
+2020-02-09 19:47:47 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=Microsoft IT TLS CA 1, OU=Microsoft IT, O=Microsoft Corporation, L=Redmond, ST=Washington, C=US
+2020-02-09 19:47:47 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 192.168.1.72:50311<->92.122.60.244:443
+2020-02-09 19:47:47 DEBUG MainClientExec:255 - Executing request OPTIONS /en-us/microsoft-edge/tools/webdriver/ HTTP/1.1
+2020-02-09 19:47:47 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2020-02-09 19:47:47 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2020-02-09 19:47:47 DEBUG headers:135 - http-outgoing-1 >> OPTIONS /en-us/microsoft-edge/tools/webdriver/ HTTP/1.1
+2020-02-09 19:47:47 DEBUG headers:138 - http-outgoing-1 >> Host: developer.microsoft.com
+2020-02-09 19:47:47 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2020-02-09 19:47:47 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_201)
+2020-02-09 19:47:47 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 >> "OPTIONS /en-us/microsoft-edge/tools/webdriver/ HTTP/1.1[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 >> "Host: developer.microsoft.com[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_201)[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "Cache-Control: private[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "Content-Length: 2266[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "Server: Microsoft-IIS/10.0[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "X-AspNet-Version: 4.0.30319[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "MS-CorrelationId: 56d793f2-35ce-4d38-be14-011dabfad2c0[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "X-Powered-By: ASP.NET[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "X-UA-Compatible: IE=edge[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "Date: Sun, 09 Feb 2020 18:47:47 GMT[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "<!DOCTYPE html>[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "<html>[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "    <head>[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "        <title>Access is denied.</title>[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "        <meta name="viewport" content="width=device-width" />[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "        <style>[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} [\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:72 - http-outgoing-1 << "         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}[\r][\n]"
+2020-02-09 19:47:47 DEBUG wire:86 - http-outgoing-1 << "         H1 { font-family:"Verdana"
+2020-02-09 19:47:47 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 401 Unauthorized
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-1 << Cache-Control: private
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-1 << Content-Length: 2266
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-1 << Content-Type: text/html; charset=utf-8
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-1 << Server: Microsoft-IIS/10.0
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-1 << X-Frame-Options: SAMEORIGIN
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-1 << X-AspNet-Version: 4.0.30319
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-1 << MS-CorrelationId: 56d793f2-35ce-4d38-be14-011dabfad2c0
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-1 << X-Powered-By: ASP.NET
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-1 << X-UA-Compatible: IE=edge
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-1 << Date: Sun, 09 Feb 2020 18:47:47 GMT
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-1 << Connection: keep-alive
+2020-02-09 19:47:47 DEBUG headers:127 - http-outgoing-1 << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2020-02-09 19:47:47 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2020-02-09 19:47:47 DEBUG HttpAuthenticator:77 - Authentication required
+2020-02-09 19:47:47 DEBUG HttpAuthenticator:107 - developer.microsoft.com:443 requested authentication
+2020-02-09 19:47:47 DEBUG HttpAuthenticator:111 - Response contains no authentication challenges
+2020-02-09 19:51:22 DEBUG Hooks:43 - Started running the scenario:Check whether application homepage is loaded properly or not
+2020-02-09 19:51:22 DEBUG DriverManager:44 - Selected Browser Is:Edge
+2020-02-09 19:51:23 DEBUG Hooks:43 - Started running the scenario:Check for the broken links in the application
+2020-02-09 19:51:23 DEBUG DriverManager:44 - Selected Browser Is:Edge
+2020-02-09 19:53:52 DEBUG Hooks:43 - Started running the scenario:Check whether application homepage is loaded properly or not
+2020-02-09 19:53:52 DEBUG DriverManager:44 - Selected Browser Is:Edge
+2020-02-09 19:54:04 DEBUG Hooks:43 - Started running the scenario:Check for the broken links in the application
+2020-02-09 19:54:04 DEBUG DriverManager:44 - Selected Browser Is:Edge
+2020-02-09 19:59:10 DEBUG Hooks:43 - Started running the scenario:Check whether application homepage is loaded properly or not
+2020-02-09 19:59:10 DEBUG DriverManager:44 - Selected Browser Is:Opera
+2020-02-09 19:59:11 DEBUG Hooks:43 - Started running the scenario:Check for the broken links in the application
+2020-02-09 19:59:11 DEBUG DriverManager:44 - Selected Browser Is:Opera
+2020-02-09 20:04:45 DEBUG Hooks:43 - Started running the scenario:Check whether application homepage is loaded properly or not
+2020-02-09 20:04:45 DEBUG DriverManager:44 - Selected Browser Is:Edge
+2020-02-09 20:04:45 DEBUG Hooks:43 - Started running the scenario:Check for the broken links in the application
+2020-02-09 20:04:45 DEBUG DriverManager:44 - Selected Browser Is:Edge
+2020-02-09 20:05:49 DEBUG Hooks:43 - Started running the scenario:Check whether application homepage is loaded properly or not
+2020-02-09 20:05:49 DEBUG DriverManager:44 - Selected Browser Is:Edge
+2020-02-09 20:05:54 DEBUG Hooks:43 - Started running the scenario:Check for the broken links in the application
+2020-02-09 20:05:54 DEBUG DriverManager:44 - Selected Browser Is:Edge
+2020-02-09 20:12:25 DEBUG Hooks:43 - Started running the scenario:Check whether application homepage is loaded properly or not
+2020-02-09 20:12:25 DEBUG DriverManager:44 - Selected Browser Is:Edge
+2020-02-09 20:12:25 DEBUG Hooks:43 - Started running the scenario:Check for the broken links in the application
+2020-02-09 20:12:25 DEBUG DriverManager:44 - Selected Browser Is:Edge
+2020-02-09 20:14:51 DEBUG Hooks:43 - Started running the scenario:End to End verification of link transfer process
+2020-02-09 20:14:51 DEBUG DriverManager:44 - Selected Browser Is:Chrome
+2020-02-09 20:15:37 DEBUG Hooks:43 - Started running the scenario:End to End verification of link transfer process
+2020-02-09 20:15:37 DEBUG DriverManager:44 - Selected Browser Is:Chrome
+2020-02-09 20:17:16 DEBUG Hooks:43 - Started running the scenario:End to End verification of link transfer process
+2020-02-09 20:17:16 DEBUG DriverManager:44 - Selected Browser Is:Chrome
+2020-02-09 20:27:35 DEBUG Hooks:43 - Started running the scenario:End to End verification of link transfer process
+2020-02-09 20:27:35 DEBUG DriverManager:46 - Selected Browser Is:Chrome
+2020-02-09 20:27:46 DEBUG HomePage:53 - Application base url is:https://wetransfer.com/
+2020-02-09 20:28:07 ERROR Hooks:59 - Scenario:End to End verification of link transfer process is failed.Failed page URL is https://wetransfer.com/
+2020-02-09 20:28:08 INFO  Hooks:65 - Screenshots are placed at the location: C:\Ramya\WeTransfer\Screenshots\WeTransfer1581276488465.png
+2020-02-09 20:29:39 DEBUG Hooks:43 - Started running the scenario:Check whether application homepage is loaded properly or not
+2020-02-09 20:29:39 DEBUG DriverManager:46 - Selected Browser Is:Chrome
+2020-02-09 20:29:50 DEBUG HomePage:53 - Application base url is:https://wetransfer.com/
+2020-02-09 20:29:53 INFO  HomePage:63 - Home page is displayed successfully.
+2020-02-09 20:29:53 DEBUG Hooks:72 - Scenario:Check whether application homepage is loaded properly or not completed successfully 
+
+2020-02-09 20:29:53 DEBUG Hooks:43 - Started running the scenario:Check for the broken links in the application
+2020-02-09 20:29:53 DEBUG DriverManager:46 - Selected Browser Is:Chrome
+2020-02-09 20:30:03 DEBUG HomePage:53 - Application base url is:https://wetransfer.com/
+2020-02-09 20:30:05 DEBUG HomePage:80 - Total number of urls are:10
+2020-02-09 20:30:07 DEBUG HomePage:28 - Active link url is: https://wetransfer.zendesk.com/ - OK
+2020-02-09 20:30:08 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/legal/terms - OK
+2020-02-09 20:30:08 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/legal/privacy - OK
+2020-02-09 20:30:08 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/help - OK
+2020-02-09 20:30:09 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/about - OK
+2020-02-09 20:30:09 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/about - OK
+2020-02-09 20:30:10 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/products - OK
+2020-02-09 20:30:10 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/advertise - OK
+2020-02-09 20:30:10 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/pro?trk=WT201908_Upgrade - OK
+2020-02-09 20:30:11 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/log-in - OK
+2020-02-09 20:30:11 DEBUG Hooks:72 - Scenario:Check for the broken links in the application completed successfully 
+
+2020-02-09 20:30:11 DEBUG Hooks:43 - Started running the scenario:End to End verification of link transfer process
+2020-02-09 20:30:11 DEBUG DriverManager:46 - Selected Browser Is:Chrome
+2020-02-09 20:30:21 DEBUG HomePage:53 - Application base url is:https://wetransfer.com/
+2020-02-09 20:30:31 INFO  TransferFilePage:123 - Files added label value is:1 file added · 2.0 GB remaining
+2020-02-09 20:30:31 DEBUG TransferFilePage:125 - File is added successfully.
+2020-02-09 20:30:31 INFO  Waiter:23 - Performing java script click on the element:[[ChromeDriver: chrome on WINDOWS (2f782548290f117a070550c9f07beedd)] -> css selector: [aria-label='Toggle transfer options']]
+2020-02-09 20:30:31 INFO  Waiter:23 - Performing java script click on the element:[[ChromeDriver: chrome on WINDOWS (2f782548290f117a070550c9f07beedd)] -> css selector: [for='transfer__type-link']]
+2020-02-09 20:30:31 INFO  Waiter:23 - Performing java script click on the element:[[ChromeDriver: chrome on WINDOWS (2f782548290f117a070550c9f07beedd)] -> css selector: .transfer__button]
+2020-02-09 20:30:33 INFO  TransferFilePage:143 - Files uploaded label value is:You’re done!
+2020-02-09 20:30:33 DEBUG TransferFilePage:145 - File is uploaded successfully.
+2020-02-09 20:30:33 DEBUG Hooks:72 - Scenario:End to End verification of link transfer process completed successfully 
+
+2020-02-09 20:31:54 DEBUG Hooks:43 - Started running the scenario:Check whether application homepage is loaded properly or not
+2020-02-09 20:31:54 DEBUG DriverManager:46 - Selected Browser Is:Chrome
+2020-02-09 20:32:05 DEBUG HomePage:53 - Application base url is:https://wetransfer.com/
+2020-02-09 20:32:07 INFO  HomePage:63 - Home page is displayed successfully.
+2020-02-09 20:32:07 DEBUG Hooks:72 - Scenario:Check whether application homepage is loaded properly or not completed successfully 
+
+2020-02-09 20:32:08 DEBUG Hooks:43 - Started running the scenario:Check for the broken links in the application
+2020-02-09 20:32:08 DEBUG DriverManager:46 - Selected Browser Is:Chrome
+2020-02-09 20:32:17 DEBUG HomePage:53 - Application base url is:https://wetransfer.com/
+2020-02-09 20:32:20 DEBUG HomePage:80 - Total number of urls are:10
+2020-02-09 20:32:21 DEBUG HomePage:28 - Active link url is: https://wetransfer.zendesk.com/ - OK
+2020-02-09 20:32:22 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/legal/terms - OK
+2020-02-09 20:32:22 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/legal/privacy - OK
+2020-02-09 20:32:23 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/help - OK
+2020-02-09 20:32:23 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/about - OK
+2020-02-09 20:32:23 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/about - OK
+2020-02-09 20:32:24 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/products - OK
+2020-02-09 20:32:24 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/advertise - OK
+2020-02-09 20:32:25 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/pro?trk=WT201908_Upgrade - OK
+2020-02-09 20:32:25 DEBUG HomePage:28 - Active link url is: https://wetransfer.com/log-in - OK
+2020-02-09 20:32:25 DEBUG Hooks:72 - Scenario:Check for the broken links in the application completed successfully 
+
+2020-02-09 20:32:30 DEBUG Hooks:43 - Started running the scenario:End to End verification of link transfer process
+2020-02-09 20:32:30 DEBUG DriverManager:46 - Selected Browser Is:Chrome
+2020-02-09 20:32:39 DEBUG HomePage:53 - Application base url is:https://wetransfer.com/
+2020-02-09 20:32:49 INFO  TransferFilePage:123 - Files added label value is:1 file added · 2.0 GB remaining
+2020-02-09 20:32:49 DEBUG TransferFilePage:125 - File is added successfully.
+2020-02-09 20:32:49 INFO  Waiter:23 - Performing java script click on the element:[[ChromeDriver: chrome on WINDOWS (cda63acc827c953ea25a4e5da4a4da86)] -> css selector: [aria-label='Toggle transfer options']]
+2020-02-09 20:32:50 INFO  Waiter:23 - Performing java script click on the element:[[ChromeDriver: chrome on WINDOWS (cda63acc827c953ea25a4e5da4a4da86)] -> css selector: [for='transfer__type-link']]
+2020-02-09 20:32:50 INFO  Waiter:23 - Performing java script click on the element:[[ChromeDriver: chrome on WINDOWS (cda63acc827c953ea25a4e5da4a4da86)] -> css selector: .transfer__button]
+2020-02-09 20:33:00 INFO  TransferFilePage:143 - Files uploaded label value is:You’re done!
+2020-02-09 20:33:00 DEBUG TransferFilePage:145 - File is uploaded successfully.
+2020-02-09 20:33:00 DEBUG Hooks:72 - Scenario:End to End verification of link transfer process completed successfully 
+

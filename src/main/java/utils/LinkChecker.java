@@ -7,7 +7,7 @@ import org.apache.log4j.Logger;
 
 import pageObjects.HomePage;
 
-public class Helper {
+public class LinkChecker {
 	static final Logger Log = Logger.getLogger(HomePage.class);
 
 	/**

@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.asserts.SoftAssert;
 
 import utils.ConfigFileReader;
-import utils.Helper;
+import utils.LinkChecker;
 import utils.Waiter;
 
 /**
@@ -81,7 +81,7 @@ public class HomePage {
 		for (int i = 0; i < healthCheckUrls.size(); i++) {
 			WebElement element = healthCheckUrls.get(i);
 			String url = element.getAttribute("href");
-			softAssert.assertEquals(Helper.verifyActiveLinks(url), true);
+			softAssert.assertEquals(LinkChecker.verifyActiveLinks(url), true);
 		}
 		softAssert.assertAll();
 	}
